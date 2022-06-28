@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { Container, Text } from "./styles";
 
@@ -7,8 +8,10 @@ type TextNavigateProps = {
 }
 
 export function TextNavigate({ text, route }: TextNavigateProps) {
+  const { navigate } = useNavigation()
+  
   return (
-    <Container>
+    <Container onPress={() => navigate('StackExample')}>
       <Text>{text}</Text>
     </Container>
   )

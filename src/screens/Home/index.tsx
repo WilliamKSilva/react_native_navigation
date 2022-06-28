@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Container>
       <Text>Hello Home, navigate to a Stack screen using the button below!</Text>
-      <TextNavigate route="Stack" text="Click here!" />
+      <TextNavigate route="StackExample" text="Click here!" />
     </Container>
   )
 }

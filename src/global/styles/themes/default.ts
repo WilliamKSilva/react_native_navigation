@@ -11,7 +11,7 @@ export const defaultTheme = {
 
   colors: {
     background: '#1c1c21',    
-    primary: '#670c47',
+    primary: '#c9184a',
 
     text: '#FFFFFF',
   }

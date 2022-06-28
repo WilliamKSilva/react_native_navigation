@@ -7,7 +7,6 @@ export default function Navigation() {
   return (
     <NavigationContainer>
       <StackNavigation />
-      <TabBarNavigation />
     </NavigationContainer>
   )
 }
